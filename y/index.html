@@ -1,0 +1,45 @@
+<!doctype html>
+<html>
+
+<head>
+  <title>Stopwatch</title>
+  <link rel="stylesheet" href="style.css">
+  <script src="app.js"></script>
+</head>
+
+<body>
+  <div class="container">
+    <div class="stopwatch">
+      <div class="stopwatch__header">
+        <span class="btn btn--small btn--gray">STOPWATCH</span>
+      </div>
+      <div class="stopwatch__display">
+        <div id="display" class="display display--underline display--big">
+          <span id="hours">00</span> :
+          <span id="minutes">00</span> :
+          <span id="seconds">00</span> :
+          <span id="milliseconds">00</span>
+        </div>
+      </div>
+
+      <div class="stopwatch__controls">
+        <span id="start" class="btn btn--green">Start</span>
+        <span id="pause" class="btn btn--green">Pause</span>
+        <span id="clear" class="btn btn--red">Clear</span>
+        <span id="split" class="btn btn--gray">Split</span>
+      </div>
+
+      <div class="stopwatch__splits">
+        <ul id="splits">
+        </ul>
+      </div>
+
+      <div class="stopwatch__footer">
+
+      </div>
+    </div>
+
+  </div>
+</body>
+
+</html>
